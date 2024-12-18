@@ -21,7 +21,7 @@ npm start
 方法二:   
 
 直接clone 带有package-lock.json的个人项目:      
-https://github.com/ant-design/ant-design-pro/tree/v4
+https://github.com/ant-design/pro-blocks.git
 
 ## 方法一执行问题
 ### 问题1: 无法启动
