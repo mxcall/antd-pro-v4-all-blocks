@@ -4,6 +4,7 @@
   "private": true,
   "description": "An out-of-box UI solution for enterprise applications",
   "scripts": {
+    "mock": "umi-serve",
     "analyze": "cross-env ANALYZE=1 umi build",
     "build": "SET NODE_OPTIONS=--openssl-legacy-provider && umi build",
     "deploy": "npm run site && npm run gh-pages",
@@ -119,7 +120,8 @@
     "pro-download": "1.0.1",
     "puppeteer-core": "^5.0.0",
     "stylelint": "^13.0.0",
-    "typescript": "^4.0.3"
+    "typescript": "^4.0.3",
+    "umi-serve": "^1.9.11"
   },
   "engines": {
     "node": ">=10.0.0"
